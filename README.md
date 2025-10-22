@@ -12,13 +12,26 @@
 在現代辦公與資料管理中，文件數量龐大且命名雜亂，手動整理耗時且容易出錯。為了提升工作效率，我們嘗試利用 ChatGPT 協助開發自動化批量文件處理工具。通過自然語言指令，我們可以快速生成 Python 或 C++ 程式碼，實現批量重命名文件、基於 EXIF 或最後修改時間更新照片名稱，以及自動檢測並刪除重複文件等功能。
 
 實際操作中，我們設計的工具可以自動掃描指定資料夾，識別目標文件類型，提取關鍵信息（如拍攝日期或文件最後修改時間），並根據規則生成新的文件名稱。同時，為避免文件覆蓋或名稱衝突，程式會自動增加序號或縮寫原始名稱。針對圖片，我們還整合了 GDI+ EXIF 解析功能，保證文件名反映拍攝時間，增強資料管理的精準性。
+<img width="1029" height="640" alt="螢幕擷取畫面 2025-10-22 203345" src="https://github.com/user-attachments/assets/0f07f761-c18e-4c0c-a1a9-0132ff8b3a29" />
+<img width="988" height="608" alt="螢幕擷取畫面 2025-10-22 203312" src="https://github.com/user-attachments/assets/077a86b0-8860-4de2-bef0-ea7b1495b3ba" />
+<img width="1049" height="697" alt="螢幕擷取畫面 2025-10-22 203302" src="https://github.com/user-attachments/assets/38f7cebc-e026-4ddf-93b8-a2ea16495782" />
+<img width="1015" height="678" alt="螢幕擷取畫面 2025-10-22 203257" src="https://github.com/user-attachments/assets/1947fd5b-50e0-470e-bd2b-27ba132247b7" />
+<img width="1001" height="640" alt="螢幕擷取畫面 2025-10-22 203238" src="https://github.com/user-attachments/assets/07e508b1-fbe7-4ed9-9b1f-92d07790f666" />
 
 除了核心功能，我們還通過 ChatGPT 生成 GUI 界面，使操作更加直觀，用戶只需點擊按鈕即可完成批量處理，無需手動修改程式碼或路徑。這種方法對零基礎用戶尤其友好，同時保留高度自訂化能力。
 
 總結來看，借助 ChatGPT 進行批量文件處理，不僅大幅提升了文件整理效率，還降低了人工操作錯誤率，提升了資料管理的規範性。AI 輔助編程的方式，使複雜的自動化任務變得可行且易於實施，展現了人工智慧在日常辦公自動化中的實際應用價值。
 
+<img width="1014" height="576" alt="螢幕擷取畫面 2025-10-22 203230" src="https://github.com/user-attachments/assets/799794a8-bd45-4e9f-ba7f-79d7b6edf4eb" />
+<img width="1000" height="508" alt="螢幕擷取畫面 2025-10-22 203216" src="https://github.com/user-attachments/assets/044c082b-187c-4a53-ae16-0582560a1d6c" />
+
 --------
 原本的參考文獻使用的是python但我這裡用的是C++，因為我只有Visoul Studio而且沒有學習過pyhton的語法，所以我不太知道怎麼搞個python程式出來，而且順便也想看看C++開發視窗程式跟cmd程式有什麼不一樣的地方，所以最後我用ChatGPT生C的程式出來，自己也比較能debug，
+<img width="1023" height="274" alt="螢幕擷取畫面 2025-10-22 203123" src="https://github.com/user-attachments/assets/ce45dd6f-2da8-4bc7-afca-b8b28794b6f4" />
+<img width="1042" height="593" alt="螢幕擷取畫面 2025-10-22 203108" src="https://github.com/user-attachments/assets/9e560a78-1611-41a8-bd41-7c90a0e7f71b" />
+<img width="997" height="316" alt="螢幕擷取畫面 2025-10-22 203048" src="https://github.com/user-attachments/assets/2dfcf07f-b041-4dda-8792-ff2241445c89" />
+<img width="1001" height="667" alt="螢幕擷取畫面 2025-10-22 203041" src="https://github.com/user-attachments/assets/89548307-83dd-44ab-ae4a-507c7f7d3346" />
+<img width="1005" height="342" alt="螢幕擷取畫面 2025-10-22 203031" src="https://github.com/user-attachments/assets/0d4c4317-d569-4447-b23f-d846707b1024" />
 
 值得一提的是
 雖然ChatGPT生成的程式又快又猛，但是也會遇到GPT解決不了的情況
