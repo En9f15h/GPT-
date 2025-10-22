@@ -1,6 +1,9 @@
 # GPT-
 
 程式檔案過大丟不上github
+<img width="1395" height="832" alt="螢幕擷取畫面 2025-10-22 202707" src="https://github.com/user-attachments/assets/18e890b9-c72f-40b7-bf8f-9898b37c8e01" />
+<img width="1373" height="816" alt="螢幕擷取畫面 2025-10-22 202659" src="https://github.com/user-attachments/assets/d3d81acf-71cf-460a-ac89-bef1ddaa75ed" />
+<img width="1414" height="868" alt="螢幕擷取畫面 2025-10-22 202635" src="https://github.com/user-attachments/assets/d1a86aaa-be28-4b2e-992f-d7950b31ed7b" />
 
 軟體工程報告
 =======
